@@ -54,7 +54,7 @@ public class I18NSample {
         currentLocale = new Locale(language, country);
 
         messages =
-                ResourceBundle.getBundle("MessagesBundle",currentLocale);
+                ResourceBundle.getBundle("MessagesBundle", currentLocale);
 
         System.out.println(messages.getString("greetings"));
         System.out.println(messages.getString("inquiry"));
